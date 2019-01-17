@@ -2,6 +2,7 @@
 <script src="gentoc.js"></script>
 <script type=text/javascript>
 $(document).ready(function() {
+  document.title = "FKA Overview";
   gentoc("Page Contents", "toc_container", "toc_title", "toc_list", "h2");
 });
 </script>
@@ -163,6 +164,6 @@ The Framework for Kicking Ass consists of this Overview, a [User's Guide][11], a
 [8]:  #basic-qualification-getting-by
 [9]:  #strong-qualification-doing-well
 [10]: #exceptional-qualification-kicking-ass
-[11]: usersguide-pub.html
-[12]: usersguide-pub.html#troubleshooting
+[11]: users-guide-pub.html
+[12]: users-guide-pub.html#troubleshooting
 [13]: scorecard-pub.html
