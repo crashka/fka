@@ -15,12 +15,12 @@
  * @param {string} sect     element tag for content sections (must have id)
  */
 function gentoc(title, toc_id, title_cl, list_cl, sect) {
-  var $toc = $("<div id='" + toc_id + "'></div>")
-  $toc.append("<p class='" + title_cl + "'>" + title + "</p>")
-  $toc.append("<ul class='" + list_cl + "'></ul>")
-  $(sect).first().before($toc)
+  var $toc = $("<div id='" + toc_id + "'></div>");
+  $toc.append("<p class='" + title_cl + "'>" + title + "</p>");
+  $toc.append("<ul class='" + list_cl + "'></ul>");
+  $(sect).first().before($toc);
     
-  var list = '.' + list_cl
+  var list = '.' + list_cl;
   $(list).empty();
   $(sect).each(function() {
     var li = "<li><a href='#" + $(this).attr('id') + "'>" +

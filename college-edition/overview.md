@@ -15,7 +15,7 @@ $(document).ready(function() {
 
 ## Preface ##
 
-The [Commitments and Responsibilities][1] you take on for any given taask or assignment are critical to
+The [Commitments and Responsibilities][1] you take on for any given task or assignment are critical to
 determining the level of [Qualification and Accomplishment][2] you will attain. In particular, [Engagement][3],
 [Completion][4], [Achievement][5], and [Learning][6] are all specific efforts and indicators that strongly
 affect whether you will fail, just get by, do well, or really kick ass.
