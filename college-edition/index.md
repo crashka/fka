@@ -12,5 +12,5 @@
 ### [Scorecard][3]
 
 [1]: overview-pub.html
-[2]: usersguide-pub.html
+[2]: users-guide-pub.html
 [3]: scorecard-pub.html

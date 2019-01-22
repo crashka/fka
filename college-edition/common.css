@@ -40,11 +40,15 @@ hr {width: 20em; margin-left: 0;}
     margin-block-end: 1em;
 }
 
-#toc_container li, #toc_container ul, #toc_container ul li {
+#toc_container ul {
     list-style: outside none none;
     padding-inline-start: 0;
     margin-block-start: 0;
     margin-block-end: 0;
+}
+
+#toc_container ul ul {
+    padding-inline-start: 1em;
 }
 
 .toc_list {

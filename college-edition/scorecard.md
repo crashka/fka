@@ -10,17 +10,17 @@ $(document).ready(function() {
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 <link rel="stylesheet" href="common.css">
 
-# Framework for Kicking Ass - Scorecard #
+# Framework for Kicking Ass &ndash; Scorecard #
 
 (College Edition, v0.7)
 
-## Task ##
+## Task or Assignment ##
 
-### Description: ###
+### Description ###
 
-### In-Process or Final Assessment: ###
+### In-Process or Final Assessment ###
 
-*(also indicate stage/progress of task, if in-process)*
+*Note: indicate stage or progress for task, if in-process*
 
 ## Scoring Yourself ##
 
@@ -28,13 +28,13 @@ $(document).ready(function() {
 
 #### Rules ####
 
-* **+1** - Going to all classes and doing all assignments
+**+1** - Going to all classes and doing all assignments
 
-* **+1** - Starting work on assignments early (soon after presented)
+**+1** - Starting work on assignments early (soon after presented)
 
-* **+1** - Completing assignment before they are due
+**+1** - Completing assignment before they are due
 
-* **+1** - Exploring the subject matter beyond requirement for the assignment
+**+1** - Exploring the subject matter beyond requirement for the assignment
 
 ----------
 
@@ -44,7 +44,7 @@ means" in the FKA Overview.*
 
 #### Value ####
 
-* (0-4):
+**Value (0-4):**
 
 ### Completion Score ###
 
@@ -52,41 +52,41 @@ means" in the FKA Overview.*
 
 ##### In-Process Assessment (before deadline) #####
 
-* **0** - Not started
+**0** - Not started
 
-* **1-2** - Behind or missing interim work, no chance to make it up on time
+**1-2** - Behind or missing interim work, no chance to make it up on time
 
-* **2-3** - Behind or missing interim work, possible to make it up on time
+**2-3** - Behind or missing interim work, possible to make it up on time
 
-* **4** - On schedule to complete, all interim work done
+**4** - On schedule to complete, all interim work done
 
 ----------
 
 ##### Final Assessment (after deadline) #####
 
-* **0** - Not completed, no credit
+**0** - Not completed, no credit
 
-* **1-2** - Partial completion, partial credit
+**1-2** - Partial completion, partial credit
 
-* **2-3** - Not completed on time, but made up the work afterward
+**2-3** - Not completed on time, but made up the work afterward
 
-* **4** - Work completed on time
+**4** - Work completed on time
 
 #### Value ####
 
-* (0-4):
+**Value (0-4):**
 
 ### Achievement Score ###
 
 #### Rules ####
 
-* **0-4** corresponding to letter grade (F through A)
+**0-4** corresponding to letter grade (F through A)
 
-* **+1** bonus if both **Learning Score** and **Engagement Score** are 4 (max **Achievement Score** is still 4)
+**+1** bonus if both **Learning Score** and **Engagement Score** are 4 (max **Achievement Score** is still 4)
 
-* Possible **+/-1** adjustment, depending on difficulty of the task (e.g. advanced-level or gravy class)
+Possible **+/-1** adjustment, depending on difficulty of the task (e.g. advanced-level or gravy class)
 
-* Mandatory **-1** penalty if **Completion Score** < 4
+Mandatory **-1** penalty if **Completion Score** < 4
 
 ----------
 
@@ -94,19 +94,19 @@ means" in the FKA Overview.*
 
 #### Value ####
 
-* (0-4):
+**Value (0-4):**
 
 ### Learning Score ###
 
 #### Rules ####
 
-* **0** - No retention of knowledge or process (even if completing the work)
+**0** - No retention of knowledge or process (even if completing the work)
 
-* **1-2** - Not full scope or depth in understanding the subject
+**1-2** - Not full scope or depth in understanding the subject
 
-* **3** - Full scope and depth of understanding
+**3** - Full scope and depth of understanding
 
-* **4** - Beyond required scope and/or depth of understanding
+**4** - Beyond required scope and/or depth of understanding
 
 ----------
 
@@ -114,74 +114,74 @@ means" in the FKA Overview.*
 
 #### Value ####
 
-* (0-4):
+**Value (0-4):**
 
-## Determining Qualification Level ##
+## Determining Qualification ##
 
 ### No/Low Qualification ###
 
 #### Level ####
 
-* Failing to Complete
+Failing to Complete
 
 #### Criteria ####
 
-* **Achievement Score** of **0** or **1**
+**Achievement Score** of **0** or **1**
 
-#### Verdict (check one) ####
+#### **Verdict**<br/>(check one) ####
 
-* ☐
+&#9744;
 
 ### Basic Qualification ###
 
 #### Level ####
 
-* Getting By
+Getting By
 
 #### Criteria ####
 
-* **Achievement Score** of **2** or **3**
+**Achievement Score** of **2** or **3**
 
-#### Verdict (check one) ####
+#### **Verdict**<br/>(check one) ####
 
-* ☐
+&#9744;
 
 ### Strong Qualification ###
 
 #### Level ####
 
-* Doing Well
+Doing Well
 
 #### Criteria ####
 
-* **Achievement Score** of **4**
+**Achievement Score** of **4**
 
-* **Learning Score** of **1** or **2**
+**Learning Score** of **1** or **2**
 
 ----------
 
 *Note: **Engagement Score** must be **3** or **4**, otherwise level is relegated to **Basic Qualification***
 
-#### Verdict (check one) ####
+#### **Verdict**<br/>(check one) ####
 
-* ☐
+&#9744;
 
 ### Exceptional Qualification ###
 
 #### Level ####
 
-* Kicking Ass!
+Kicking Ass!
 
 #### Criteria ####
 
-* **Achievement Score** of **4**
+**Achievement Score** of **4**
 
-* **Learning Score** of **3** or **4**
+**Learning Score** of **3** or **4**
 
 ----------
 
 *Note: **Engagement Score** must be **3** or **4**, otherwise level is relegated to **Strong Qualification***
 
-#### Verdict (check one) ####
+#### **Verdict**<br/>(check one) ####
 
-* ☐
+&#9744;

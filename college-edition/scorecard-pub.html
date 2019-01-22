@@ -3,202 +3,106 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
-<title>FKA Scorecard.html</title>
+<title>scorecard.html</title>
+</head>
+<body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="gentoc.js"></script>
-<script type=text/javascript>
- $(document).ready(function() {
-   document.title = "FKA Scorecard";
-   gentoc("Page Contents", "toc_container", "toc_title", "toc_list", "h2");
- });
+<script type="text/javascript">
+$(document).ready(function() {
+  document.title = "FKA Scorecard";
+  gentoc("Page Contents", "toc_container", "toc_title", "toc_list", "h2");
+});
 </script>
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-<link rel="stylesheet" href="common.css">
-</head>
-
-<body>
-
-<h1 id="fka---scorecard">Framework for Kicking Ass - Scorecard</h1>
+<p><link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"/> <link href="common.css" rel="stylesheet"/></p>
+<h1 id="framework-for-kicking-ass-scorecard">Framework for Kicking Ass – Scorecard</h1>
 <p>(College Edition, v0.7)</p>
+<h2 id="task-or-assignment">Task or Assignment</h2>
+<table border="1" style="max-width:75%"><col width="30%"/><tr><td><strong id="description">Description</strong>
+</td><td></td></tr><tr><td><strong id="in-process-or-final-assessment">In-Process or Final Assessment</strong>
+<p><em>Note: indicate stage or progress for task, if in-process</em></p>
+</td><td></td></tr></table><h2 id="scoring-yourself">Scoring Yourself</h2>
+<table border="1"><col width="25%"/><col width="25%"/><col width="25%"/><col width="25%"/><tr><td><strong id="engagement-score">Engagement Score</strong></td><td><strong id="completion-score">Completion Score</strong></td><td><strong id="achievement-score">Achievement Score</strong></td><td><strong id="learning-score">Learning Score</strong></td></tr><tr><td>
+<p><strong>+1</strong> - Going to all classes and doing all assignments</p>
+<p><strong>+1</strong> - Starting work on assignments early (soon after presented)</p>
+<p><strong>+1</strong> - Completing assignment before they are due</p>
+<p><strong>+1</strong> - Exploring the subject matter beyond requirement for the assignment</p>
+<hr/>
+<p><em>Note that this only a template for Engagement scoring. The specific items contributing to the score may vary depending on context, but should correspond to items under "What it means" in the FKA Overview.</em></p>
+</td><td>
+<h5 id="in-process-assessment-before-deadline">In-Process Assessment (before deadline)</h5>
+<p><strong>0</strong> - Not started</p>
+<p><strong>1-2</strong> - Behind or missing interim work, no chance to make it up on time</p>
+<p><strong>2-3</strong> - Behind or missing interim work, possible to make it up on time</p>
+<p><strong>4</strong> - On schedule to complete, all interim work done</p>
+<hr/>
+<h5 id="final-assessment-after-deadline">Final Assessment (after deadline)</h5>
+<p><strong>0</strong> - Not completed, no credit</p>
+<p><strong>1-2</strong> - Partial completion, partial credit</p>
+<p><strong>2-3</strong> - Not completed on time, but made up the work afterward</p>
+<p><strong>4</strong> - Work completed on time</p>
+</td><td>
+<p><strong>0-4</strong> corresponding to letter grade (F through A)</p>
+<p><strong>+1</strong> bonus if both <strong>Learning Score</strong> and <strong>Engagement Score</strong> are 4 (max <strong>Achievement Score</strong> is still 4)</p>
+<p>Possible <strong>+/-1</strong> adjustment, depending on difficulty of the task (e.g. advanced-level or gravy class)</p>
+<p>Mandatory <strong>-1</strong> penalty if <strong>Completion Score</strong> &lt; 4</p>
+<hr/>
+<p><em>Note: as a rule, <strong>Achievement Score</strong> (adjusted) cannot be higher than <strong>Completion Score</strong></em></p>
+</td><td>
+<p><strong>0</strong> - No retention of knowledge or process (even if completing the work)</p>
+<p><strong>1-2</strong> - Not full scope or depth in understanding the subject</p>
+<p><strong>3</strong> - Full scope and depth of understanding</p>
+<p><strong>4</strong> - Beyond required scope and/or depth of understanding</p>
+<hr/>
+<p><em>Note: as a guideline, <strong>Learning Score</strong> generally cannot be higher than <strong>Engagement Score</strong></em></p>
+</td></tr><tr><td>
+<span><strong>Value (0-4):</strong></span>
+</td><td>
+<span><strong>Value (0-4):</strong></span>
+</td><td>
+<span><strong>Value (0-4):</strong></span>
+</td><td>
+<span><strong>Value (0-4):</strong></span>
+</td></tr></table>
 
-<h2 id="task">Task</h2>
 
-<table border="1" style="max-width:75%">
-  <col width="30%">
-  <tr>
-    <td>
-      <strong>Description</strong>
-    </td>
-    <td>
-      &nbsp;
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>In-Process or Final Assessment</strong><br/>
-      <em>(also indicate stage/progress of task, if in-process)</em>
-    </td>
-    <td>
-      &nbsp;
-    </td>
-  </tr>
-</table>
 
-<h2 id="scoring-yourself">Scoring Yourself</h2>
+<h2 id="determining-qualification">Determining Qualification</h2>
+<table border="1" style="max-width:75%"><col width="25%"/><col width="60%"/><col width="15%"/><tr><td><strong id="level">Level</strong></td><td><strong id="criteria">Criteria</strong></td><td align="center"><span id="verdict-check-one"><strong>Verdict</strong><br/>(check one)</span></td></tr><tr><td><p><strong id="nolow-qualification">No/Low Qualification</strong><br/>
+<span>Failing to Complete</span>
+</p></td><td>
+<p><strong>Achievement Score</strong> of <strong>0</strong> or <strong>1</strong></p>
+</td><td align="center">
+<p>☐</p>
+</td></tr><tr><td><p><strong id="basic-qualification">Basic Qualification</strong><br/>
+<span>Getting By</span>
+</p></td><td>
+<p><strong>Achievement Score</strong> of <strong>2</strong> or <strong>3</strong></p>
+</td><td align="center">
+<p>☐</p>
+</td></tr><tr><td><p><strong id="strong-qualification">Strong Qualification</strong><br/>
+<span>Doing Well</span>
+</p></td><td>
+<p><strong>Achievement Score</strong> of <strong>4</strong></p>
+<p><strong>Learning Score</strong> of <strong>1</strong> or <strong>2</strong></p>
+<hr/>
+<p><em>Note: <strong>Engagement Score</strong> must be <strong>3</strong> or <strong>4</strong>, otherwise level is relegated to <strong>Basic Qualification</strong></em></p>
+</td><td align="center">
+<p>☐</p>
+</td></tr><tr><td><p><strong id="exceptional-qualification">Exceptional Qualification</strong><br/>
+<span>Kicking Ass!</span>
+</p></td><td>
+<p><strong>Achievement Score</strong> of <strong>4</strong></p>
+<p><strong>Learning Score</strong> of <strong>3</strong> or <strong>4</strong></p>
+<hr/>
+<p><em>Note: <strong>Engagement Score</strong> must be <strong>3</strong> or <strong>4</strong>, otherwise level is relegated to <strong>Strong Qualification</strong></em></p>
+</td><td align="center">
+<p>☐</p>
+</td></tr></table>
 
-<table border="1">
-  <col width="25%">
-  <col width="25%">
-  <col width="25%">
-  <col width="25%">
-  <tr>
-    <td>
-      <strong>Engagement Score</strong>
-    </td>
-    <td>
-      <strong>Completion Score</strong>
-    </td>
-    <td>
-      <strong>Achievement Score</strong>
-    </td>
-    <td>
-      <strong>Learning Score</strong>
-    </td>
-  </tr>
-  <tr>
-    <td>
-        <p><strong>+1</strong> - Going to all classes and doing all assignments</p>
-        <p><strong>+1</strong> - Starting work on assignments early (soon after presented)</p>
-        <p><strong>+1</strong> - Completing assignment before they are due</p>
-        <p><strong>+1</strong> - Exploring the subject matter beyond requirement for the assignment</p>
-        <hr/>
-        <p><em>Note that this only a template for Engagement scoring. The specific items contributing to the
-          score may vary depending on context, but should correspond to items under &quot;What it means&quot;
-          in the FKA Overview.</em></p>
-    </td>
-    <td>
-      <h4 id="in-process-assessment-before-deadline">In-Process Assessment (before deadline)</h4>
-        <p><strong>0</strong> - Not started</p>
-        <p><strong>1-2</strong> - Behind or missing interim work, no chance to make it up on time</p>
-        <p><strong>2-3</strong> - Behind or missing interim work, possible to make it up on time</p>
-        <p><strong>4</strong> - On schedule to complete, all interim work done</p>
-        <hr/>
-      <h4 id="final-assessment-after-deadline">Final Assessment (after deadline)</h4>
-        <p><strong>0</strong> - Not completed, no credit</p>
-        <p><strong>1-2</strong> - Partial completion, partial credit</p>
-        <p><strong>2-3</strong> - Not completed on time, but made up the work afterward</p>
-        <p><strong>4</strong> - Work completed on time</p>
-    </td>
-    <td>
-        <p><strong>0-4</strong> corresponding to letter grade (F through A)</p>
-        <p><strong>+1</strong> bonus if both <strong>Learning Score</strong> and <strong>Engagement Score</strong> are 4 (max <strong>Achievement Score</strong> is still 4)</p>
-        <p>Possible <strong>+/-1</strong> adjustment, depending on difficulty of the task (e.g. advanced-level or gravy class)</p>
-        <p>Mandatory <strong>-1</strong> penalty if <strong>Completion Score</strong> &lt; 4</p>
-        <hr/>
-        <p><em>Note: as a rule, <strong>Achievement Score</strong> (adjusted) cannot be higher than <strong>Completion Score</strong></em></p>
-    </td>
-    <td>
-        <p><strong>0</strong> - No retention of knowledge or process (even if completing the work)</p>
-        <p><strong>1-2</strong> - Not full scope or depth in understanding the subject</p>
-        <p><strong>3</strong> - Full scope and depth of understanding</p>
-        <p><strong>4</strong> - Beyond required scope and/or depth of understanding</p>
-        <hr/>
-        <p><em>Note: as a guideline, <strong>Learning Score</strong> generally cannot be higher than <strong>Engagement Score</strong></em></p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>Value (0-4):</strong>
-    </td>
-    <td>
-      <strong>Value (0-4):</strong>
-    </td>
-    <td>
-      <strong>Value (0-4):</strong>
-    </td>
-    <td>
-      <strong>Value (0-4):</strong>
-    </td>
-  </tr>
-</table>
 
-<h2 id="determining-qualification-level">Determining Qualification Level</h2>
-<p>The following is with bonuses/penalties applied to scoring above</p>
-
-<table border="1" style="max-width:75%">
-  <col width="25%">
-  <col width="60%">
-  <col width="15%">
-  <tr>
-    <td>
-      <strong>Level</strong>
-    </td>
-    <td>
-      <strong>Criteria</strong>
-    </td>
-    <td align="center">
-      <strong>Verdict</strong><br/>
-      (check one)
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>No/Low Qualification</strong><br/>
-      Failing to Complete
-    </td>
-    <td>
-      <strong>Achievement Score</strong> of <strong>0</strong> or <strong>1</strong>
-    </td>
-    <td align="center"> 
-      &#9744;
-   </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>Basic Qualification</strong><br/>
-      Getting By
-    </td>
-    <td>
-      <strong>Achievement Score</strong> of <strong>2</strong> or <strong>3</strong>
-    </td>
-    <td align="center">
-      &#9744;
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>Strong Qualification</strong><br/>
-      Doing Well
-    </td>
-    <td>
-      <p><strong>Achievement Score</strong> of <strong>4</strong></p>
-      <p><strong>Learning Score</strong> of <strong>1</strong> or <strong>2</strong></p>
-      <hr/>
-      <p><em>Note: <strong>Engagement Score</strong> must be <strong>3</strong> or <strong>4</strong>, otherwise level is relegated to <strong>Basic Qualification</strong></em></p>
-    </td>
-    <td align="center">
-      &#9744;
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>Exceptional Qualification</strong><br/>
-      Kicking Ass!
-    </td>
-    <td>
-      <p><strong>Achievement Score</strong> of <strong>4</strong></p>
-      <p><strong>Learning Score</strong> of <strong>3</strong> or <strong>4</strong></p>
-      <hr/>
-      <p><em>Note: <strong>Engagement Score</strong> must be <strong>3</strong> or <strong>4</strong>, otherwise level is relegated to <strong>Strong Qualification</strong></em></p>
-    </td>
-    <td align="center">
-      &#9744;
-    </td>
-  </tr>
-</table>
 
 </body>
 </html>
+

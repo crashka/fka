@@ -3,7 +3,7 @@
 <script type=text/javascript>
 $(document).ready(function() {
   document.title = "FKA User's Guide";
-  gentoc("Page Contents", "toc_container", "toc_title", "toc_list", "h2");
+  gentoc("Page Contents", "toc_container", "toc_title", "toc_list", "h2", "h3");
 });
 </script>
 
