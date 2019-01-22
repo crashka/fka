@@ -10,11 +10,11 @@ $(document).ready(function() {
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 <link rel="stylesheet" href="common.css">
 
-# Framework for Kicking Ass - User's Guide #
+# Framework for Kicking Ass &ndash; User's Guide #
 
 (College Edition, v0.7)
 
-## Process - Start to Finish ##
+## Process &ndash; Start to Finish ##
 
 ### Intention ###
 
@@ -202,7 +202,7 @@ etc.) for your chosen course of study.
 
 ### Problems with Achievement (and Learning) ###
 
-You must pay attention to this section if you are getting grades below the level of your capability.  You may get
+**You must pay attention to this section if you are getting grades below the level of your capability.**  You may get
 screwed on the grading of an assignment or a class here and there, but in all other cases, you must take ownership
 of your measured Achievement and work on getting it to the appropriate level.
 

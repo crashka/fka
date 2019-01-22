@@ -1,0 +1,5 @@
+pyyaml
+click
+beautifulsoup4
+#lxml
+#html5lib
