@@ -108,6 +108,7 @@ def make_hdr_tree(soup):
     """
     hdr_tags = ['h1', 'h2', 'h3', 'h4']
     last_tag = [None] * (len(hdr_tags) + 1)  # 1-based for intuitive indexing
+    skip_tags = ['header', 'footer']
 
     # note that root node is only used internally
     root = root_hdr()
@@ -136,7 +137,7 @@ def make_hdr_tree(soup):
             add_hdr(h, parent)
             last_tag[level] = h
             prev_hdr = h
-        else:
+        elif tag.name not in skip_tags:
             add_content(tag, prev_hdr)
 
     assert len(root['children']) == 1

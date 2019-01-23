@@ -21,6 +21,8 @@ h3 {font-size: 20px; margin-top: 1.2em;}
 h4 {margin-block-start: 1em; margin-block-end: 1em;}
 h5 {margin-block-start: 0.8em; margin-block-end: 0.5em;}
 hr {width: 20em; margin-left: 0;}
+
+header, footer {margin: 1em 0em 1em 0em;}
 .tip {font-weight: normal; text-align: left; font-style: italic; padding: 10px;}
 .left {text-align: left;}
 

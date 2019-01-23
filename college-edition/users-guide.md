@@ -14,6 +14,8 @@ $(document).ready(function() {
 
 (College Edition, v0.7)
 
+<header>Back to [FKA Index][17]</header>
+
 ## Process &ndash; Start to Finish ##
 
 ### Intention ###
@@ -252,6 +254,8 @@ at Engaging, if that is the problem.
     * As [stated above][4], you may need to treat required tasks and elective tasks differently.  And you must endeavor
     not to let Avoidance (which makes tasks harder than they really are) slip into Complete Neglect (assured failure).
 
+<footer>Back to [FKA Index][17]</footer>
+
 [1]:  #intention
 [2]:  #commitment
 [3]:  #execution
@@ -259,3 +263,10 @@ at Engaging, if that is the problem.
 [5]:  #problems-with-completion
 [6]:  #problems-with-achievement
 [7]:  #your-overall-workload-is-preventing-you-from-completing-required-tasks
+[11]: overview-pub.html
+[12]: users-guide-pub.html
+[13]: #troubleshooting
+[14]: scorecard-pub.html
+[15]: quick-ref-pub.html
+[16]: worksheet-pub.html
+[17]: index.html

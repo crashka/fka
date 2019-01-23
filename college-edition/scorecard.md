@@ -14,6 +14,8 @@ $(document).ready(function() {
 
 (College Edition, v0.7)
 
+<header>Back to [FKA Index][17]</header>
+
 ## Task or Assignment ##
 
 ### Description ###
@@ -185,3 +187,13 @@ Kicking Ass!
 #### **Verdict**<br/>(check one) ####
 
 &#9744;
+
+<footer>Back to [FKA Index][17]</footer>
+
+[11]: overview-pub.html
+[12]: users-guide-pub.html
+[13]: users-guide-pub.html#troubleshooting
+[14]: scorecard-pub.html
+[15]: quick-ref-pub.html
+[16]: worksheet-pub.html
+[17]: index.html

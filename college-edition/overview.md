@@ -14,6 +14,8 @@ $(document).ready(function() {
 
 (College Edition, v0.7)
 
+<header>Back to [FKA Index][17]</header>
+
 ## Preface ##
 
 The [Commitments and Responsibilities][1] you take on for any given task or assignment are critical to
@@ -24,7 +26,8 @@ affect whether you will fail, just get by, do well, or really kick ass.
 In the context of schooling and education, the following framework can be used as a tool for performing at your
 highest level—this applies to individual homeworks and projects, or to entire classes or courses of study.
 
-The Framework for Kicking Ass consists of this Overview, a [User's Guide][11], and a [Scorecard][13].
+The Framework for Kicking Ass consists of this [Overview][11], a [User's Guide][12], a [Scorecard][14], a
+[Quick Reference][15], and a [Worksheet][16].
 
 ## Commitments and Responsibilities ##
 
@@ -113,7 +116,7 @@ The Framework for Kicking Ass consists of this Overview, a [User's Guide][11], a
 
 #### What you have to do ####
 
-* See the [Troubleshooting][12] section of the User's Guide to help you get the requisite work completed, and achieve at a level you are capable of
+* See the [Troubleshooting][13] section of the User's Guide to help you get the requisite work completed, and achieve at a level you are capable of
 
 ### Basic Qualification &ndash; Getting By ###
 
@@ -154,6 +157,8 @@ The Framework for Kicking Ass consists of this Overview, a [User's Guide][11], a
 * You must continue to Engage, Complete, Achieve, and Learn in your work
 * If you continue engaging strongly and driving with passion, ***there are no limits to where you can go!***
 
+<footer>Back to [FKA Index][17]</footer>
+
 [1]:  #commitments-and-responsibilities
 [2]:  #qualification-and-accomplishment
 [3]:  #engagement
@@ -164,6 +169,10 @@ The Framework for Kicking Ass consists of this Overview, a [User's Guide][11], a
 [8]:  #basic-qualification-getting-by
 [9]:  #strong-qualification-doing-well
 [10]: #exceptional-qualification-kicking-ass
-[11]: users-guide-pub.html
-[12]: users-guide-pub.html#troubleshooting
-[13]: scorecard-pub.html
+[11]: overview-pub.html
+[12]: users-guide-pub.html
+[13]: users-guide-pub.html#troubleshooting
+[14]: scorecard-pub.html
+[15]: quick-ref-pub.html
+[16]: worksheet-pub.html
+[17]: index.html
