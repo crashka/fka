@@ -17,6 +17,10 @@ mymodule  = sys.modules[__name__]
 
 DFLT_HTML_PARSER = 'html.parser'
 
+# mapping of header hierarchy (specified by ids) to the functions
+# used for tablizing the format; note that the functions are specified
+# by name so that this configuration can be moved to an external file,
+# if needed
 TABLIZE_MAP = {
     'framework-for-kicking-ass-overview': {
         'commitments-and-responsibilities': 'tablize1',
@@ -39,7 +43,12 @@ TABLIZE_MAP = {
 ######################
 
 def hdr(tag):
-    """
+    """Create a node which can be used to represent h1, h2, etc. tags
+    (and their content) hierarchically as a tree, rather than the flat
+    html way
+
+    :param tag: [bs4.element.Tag]
+    :return: [dict] header node
     """
     level = int(tag.name[1:])
     return {
@@ -52,7 +61,9 @@ def hdr(tag):
     }
 
 def root_hdr():
-    """
+    """Create the dummy root node for the header tree
+
+    :return: [dict] dummy node
     """
     return {
         'tag'        : None,
@@ -64,13 +75,22 @@ def root_hdr():
     }
 
 def add_hdr(hdr, parent):
-    """
+    """Add child header node to parent node
+
+    :param hdr: [dict] from hdr() or root_header()
+    :param parent: [dict] from hdr() or root_header()
+    :return: [void]
     """
     parent['children'].append(hdr)
     hdr['parent'] = parent
 
 def add_content(content, parent, skip_empty = False):
-    """
+    """Add html content to parent node
+
+    :param content: [bs4.element.Tag]
+    :param parent: [dict] from hdr() or root_header()
+    :parem skip_empty: [bool] skip empty string elements, if desired
+    :return: [void]
     """
     if not content.name and skip_empty and re.fullmatch(r'\s*', content.string):
         return
@@ -81,11 +101,15 @@ def add_content(content, parent, skip_empty = False):
         parent['content_map'][content.name].append(content)
 
 def make_hdr_tree(soup):
-    """
+    """Create tree of html header tags (and associated content)
+
+    :param soup: [bs4.BeautifulSoup] representing entire document
+    :return: [dict] header node for h1 tag
     """
     hdr_tags = ['h1', 'h2', 'h3', 'h4']
     last_tag = [None] * (len(hdr_tags) + 1)  # 1-based for intuitive indexing
 
+    # note that root node is only used internally
     root = root_hdr()
     root_level = root['level']
     last_tag[root_level] = root
@@ -121,8 +145,17 @@ def make_hdr_tree(soup):
     return h1_hdr
                 
 def walk_hdr_tree(soup, hdr, func, ctx = None):
+    """Walk the header tree recursively starting from the indicated node, invoking specified
+    processing function on each node
+
+    :param soup: [bs4.BeautifulSoup] document context
+    :param hdr: [dict] starting header node
+    :param func: [function] takes args (soup, hdr, ctx)
+    :param ctx: [any] context for processing
+    :return: [void]
     """
-    """
+    # note that func returns the context value to be used in interating through
+    # children, an empty return value prunes the recursion
     ctx = func(soup, hdr, ctx)
     if ctx:
         for c in hdr['children']:
@@ -132,18 +165,29 @@ def walk_hdr_tree(soup, hdr, func, ctx = None):
 # tablize funcs #
 #################
 
-def convert_tag(orig_tag, to_tag):
+def convert_tag(elem, to_tag):
+    """Convert the specified element to a new tag type
+
+    :param elem: [bs4.element.Tag] original element
+    :param to_tag: [str] tag type to convert to
+    :return: [bs4.BeautifulSoup] converted element
     """
-    """
-    ptrn = r'(</?)%s([ >])' % (orig_tag.name)
+    ptrn = r'(</?)%s([ >])' % (elem.name)
     repl = r'\1%s\2' % (to_tag)
     # have to create a top-level object here, since new_tag() can't construct
     # from raw html; note that this gets converted to the right tag type once
     # integrated into the tree (using append(), etc.)
-    return BeautifulSoup(re.sub(ptrn, repl, str(orig_tag)), DFLT_HTML_PARSER)
+    return BeautifulSoup(re.sub(ptrn, repl, str(elem)), DFLT_HTML_PARSER)
 
 def convert_content(content, from_tag, to_tag):
-    """
+    """Convert all of the content pieces of a specific tag type to a new type,
+    other element types passed through unchanged.  Note that converted elements
+    are removed from the html tree.
+
+    :param content: [list] bs4.element.Tag elements
+    :param from_tag: [str] tag type to convert from
+    :param to_tag: [str] tag type to convert to
+    :return: [list] new list of elements
     """
     new_content = []
     for c in content:
@@ -156,6 +200,8 @@ def convert_content(content, from_tag, to_tag):
 
 def tablize1(soup, hdr):
     """
+    :param soup: [bs4.BeautifulSoup] document context
+    :param hdr: [dict] header node to process
     """
     hdrs3 = hdr['children']
     for h3 in hdrs3:
@@ -183,6 +229,8 @@ def tablize1(soup, hdr):
 
 def tablize2(soup, hdr):
     """
+    :param soup: [bs4.BeautifulSoup] document context
+    :param hdr: [dict] header node to process
     """
     hdrs3 = hdr['children']
     for h3 in hdrs3:
@@ -205,6 +253,8 @@ def tablize2(soup, hdr):
 
 def tablize3(soup, hdr):
     """
+    :param soup: [bs4.BeautifulSoup] document context
+    :param hdr: [dict] header node to process
     """
     hdrs3 = hdr['children']
     for h3 in hdrs3:
@@ -231,6 +281,8 @@ def tablize3(soup, hdr):
 
 def tablize4(soup, hdr):
     """
+    :param soup: [bs4.BeautifulSoup] document context
+    :param hdr: [dict] header node to process
     """
     hdrs3 = hdr['children']
     for h3 in hdrs3:
@@ -259,6 +311,8 @@ def tablize4(soup, hdr):
 
 def tablize5(soup, hdr):
     """
+    :param soup: [bs4.BeautifulSoup] document context
+    :param hdr: [dict] header node to process
     """
     hdrs3 = hdr['children']
     assert len(hdrs3) > 0
@@ -284,6 +338,8 @@ def tablize5(soup, hdr):
 
 def tablize6(soup, hdr):
     """
+    :param soup: [bs4.BeautifulSoup] document context
+    :param hdr: [dict] header node to process
     """
     hdrs3 = hdr['children']
     assert len(hdrs3) > 0
@@ -327,6 +383,8 @@ def tablize6(soup, hdr):
 
 def tablize7(soup, hdr):
     """
+    :param soup: [bs4.BeautifulSoup] document context
+    :param hdr: [dict] header node to process
     """
     hdrs3 = hdr['children']
     assert len(hdrs3) > 0
@@ -361,6 +419,9 @@ def tablize7(soup, hdr):
         br1 = soup.new_tag('br')
         tr.append(td1)
         td1.append(converted)
+        # this is an ugly way to wrap the "level" description with a <p> so
+        # we get consistent margins with "criteria"; note that the ugliness
+        # continues below
         td1.strong.wrap(soup.new_tag('p'))
         td1.strong.insert_after(br1)
 
@@ -377,12 +438,9 @@ def tablize7(soup, hdr):
         assert re.fullmatch(r'verdict-check-one(-\d)?', verd_tag['id'])
         td2 = soup.new_tag('td')
         td3 = soup.new_tag('td', align="center")
+        # here is that continued ugliness
         for c in reversed(convert_content(levl['content'], 'p', 'span')):
             br1.insert_after(c)
-        #td1.extend(convert_content(levl['content'], 'p', 'span'))
-        #td2.extend(convert_content(crit['content'], 'p', 'span'))
-        #td3.extend(convert_content(verd['content'], 'p', 'span'))
-        #td1.extend(levl['content'])
         td2.extend(crit['content'])
         td3.extend(verd['content'])
         tr.extend([td2, td3])
@@ -393,8 +451,12 @@ def tablize7(soup, hdr):
 
 def print_hdr(soup, hdr, file = None):
     """
+    :param soup: [bs4.BeautifulSoup] document context
+    :param hdr: [dict] header node to process
+    :param file: [stream] I/O stream to print to
+    :return: [stream] pass on the I/O stream so descent continues
     """
-    tag    = hdr['tag']
+    tag = hdr['tag']
     tag_id = tag['id']
     indent = (hdr['level'] - 1) * '  '
     # do this replacement for (relative) readability
@@ -404,8 +466,12 @@ def print_hdr(soup, hdr, file = None):
 
 def tablize_hdr(soup, hdr, map = None):
     """
+    :param soup: [bs4.BeautifulSoup] document context
+    :param hdr: [dict] header node to (perhaps) process and/or descend
+    :param map: [dict] function map for current node
+    :return: [dict] function map for child nodes, or None (if no descent is needed)
     """
-    tag    = hdr['tag']
+    tag = hdr['tag']
     tag_id = tag['id']
     if map is None or tag_id not in map:
         return None
@@ -416,12 +482,16 @@ def tablize_hdr(soup, hdr, map = None):
     tbl_func(soup, hdr)
     return None
 
-def tablize_soup(soup):
+def tablize_soup(soup, debug = 0):
     """
+    :param soup: [bs4.BeautifulSoup] parsed html to process
+    :param debug: [bool] print debugging info to stderr if specified
+    :return: [void]
     """
     h1_hdr = make_hdr_tree(soup)
 
-    walk_hdr_tree(soup, h1_hdr, print_hdr, sys.stderr)
+    if debug > 0:
+        walk_hdr_tree(soup, h1_hdr, print_hdr, sys.stderr)
     walk_hdr_tree(soup, h1_hdr, tablize_hdr, TABLIZE_MAP)
 
 #####################
@@ -432,14 +502,15 @@ import click
 
 @click.command()
 @click.option('--html_parser', default=DFLT_HTML_PARSER, help="Possible overrides: \"lxml\", \"html5lib\"")
+@click.option('--debug', default=0, type=int, help="Debug level (0-2)")
 @click.argument('file', required=True)
-def main(html_parser, file):
-    """Reformat sections of HTML file (generated from Markdown) as tables
+def main(html_parser, debug, file):
+    """Reformat sections of HTML file (generated from Markdown) as tables, new HTML is output to stdout
     """
     with open(file) as f:
         soup = BeautifulSoup(f, html_parser)
 
-    tablize_soup(soup)  # throws exception if error
+    tablize_soup(soup, debug)  # throws exception if error
     print(str(soup))
     return 0
 

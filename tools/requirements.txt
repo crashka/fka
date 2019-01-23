@@ -1,4 +1,3 @@
-pyyaml
 click
 beautifulsoup4
 #lxml
