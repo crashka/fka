@@ -18,18 +18,27 @@ $(document).ready(function() {
 
 ## Preface ##
 
-The [Commitments and Responsibilities][1] you take on for any given task or assignment are critical to
+For any given task or assignment, the [Commitments and Responsibilities][1] you take on are critical to
 determining the level of [Qualification and Accomplishment][2] you will attain. In particular, [Engagement][3],
-[Completion][4], [Achievement][5], and [Learning][6] are all specific efforts and indicators that strongly
-affect whether you will fail, just get by, do well, or really kick ass.
+[Completion][4], [Achievement][5], and [Learning][6] are all specific efforts and strong indicators of whether
+you will [fail][7], [just get by][8], [really do well][9], or [seriously kick ass][10].
 
-In the context of schooling and education, the following framework can be used as a tool for performing at your
-highest level—this applies to individual homeworks and projects, or to entire classes or courses of study.
+The following framework can be used as a tool for performing at your highest level in the course of your college
+career.  This approach applies to individual homeworks and projects, to entire classes, or the overall course of
+study in your major or minor field.
 
-The Framework for Kicking Ass consists of this [Overview][11], a [User's Guide][12], a [Scorecard][14], a
-[Quick Reference][15], and a [Worksheet][16].
+The **Framework for Kicking Ass** consists of the following:
+
+* [Overview][11] &ndash; this document
+* [User's Guide][12] &ndash; a How-To for applying the framework (including a Troubleshooting section)
+* [Scorecard][14] &ndash; a way to project or measure your level of Qualification and Accomplishment
+* [Quick Reference][15] &ndash; a one-page summary of the first three documents
+* [Worksheet][16] &ndash; an aid for following through on the process described in the User's Guide
 
 ## Commitments and Responsibilities ##
+
+These four components represent separate aspects of endeavoring to excel in your academics.  Even though they
+can be described individually, they are intertwined in practice&mdash;they influence and support each other.
 
 ### Engagement ###
 
@@ -37,13 +46,14 @@ The Framework for Kicking Ass consists of this [Overview][11], a [User's Guide][
 
 * Looking forward to immersing yourself in the work
 * Getting tasks started, and making early progress toward completing them
-* Always keeping things moving forward, maintaining momentum once started
-* Spending time with the material, thinking about it and absorbing it, rather than just getting past it
+* Always keeping things moving forward; maintaining momentum once started
+* Thinking about the material and its implications; absorbing things, rather than just getting past them
 
 #### Why do it? ####
 
-* An early effort can get you 50% or more of the way to completion quickly
-* There is a strong correlation between Engagement and both the ease of Completion and level of Achievement
+* An early effort can propel you substantially toward an early completion (which is always better)
+* Completion is both difficult and painful when disengaged, so you must make an effort to break the inertia if it starts to sets in
+* Attention to the subject matter deepens your understanding, which always leads to stronger Achievement and Learning
 
 #### Consequences ####
 
@@ -56,14 +66,14 @@ The Framework for Kicking Ass consists of this [Overview][11], a [User's Guide][
 #### What it means ####
 
 * There are no magic shortcuts or allowances, you really have to do all of the work
-* You have to manage obstables and difficulties; excuses don't matter, you still have to do all of the work
-* Finishing earlier is always better than finishing later (same as with starting the work)
-* Completion is much harder without Engagement, so you have to make the effort to break the inertia if it sets in
+* You must manage obstables and difficulties as they arise; excuses don't matter, you still have to do all of the work
+* Finishing early always gives you an advantage; it allows you to move onto to other things (including free time), or to refactor your work
+for even higher Achievement
 
 #### Why do it? ####
 
-* There is no measure of Achievement, or a passing Qualification, without Completion
-* Partial credit counts for very little (if anything); you get no meaningful recognition if you don't complete the work
+* If you don't complete the work, there is no measure of Achievement, and no passing Qualification
+* Partial credit counts for very little (if anything); the work is undone and earns you no meaningful recognition
 
 #### Consequences ####
 
@@ -75,37 +85,41 @@ The Framework for Kicking Ass consists of this [Overview][11], a [User's Guide][
 #### What it means ####
 
 * This is an objective measure of how well you have completed the work
-* Higher Achievement gives you both a credential and a solid foundation for continuing on the path to your longer-term goals and objectives
+* High Achievement gives you both a valid credential and a solid foundation for continuing on the path to your longer-term goals and aspirations
 
 #### Why do it? ####
 
-* Accomplishing a task below the level of your true capability is a missed opportunity and a setback for fulfilling your aspirations
+* Accomplishing a task below the level of your true capability is a missed opportunity and a setback for any ambitious targets you may have set for yourself
 
 #### Consequences ####
 
 * Determines level of **Qualification and Accomplishment**
-    * This is the difference between [Getting By][8] and [Doing Well][9]
+    * Note: this is the difference between [Getting By][8] and [Doing Well][9]
 * Reflection of **Engagement** and **Learning**
 
 ### Learning ###
 
 #### What it means ####
 
-* Truly digesting and retaining the principles, content, and skills beyond the end of an assignment
-* Exploration of a subject area, both in breadth (scope) and depth (detail), beyond what is required for the task at hand (this is closely tied to Engagement)
+* Truly digesting and retaining the principles, content, and skills, even beyond the end of an assignment
+* Exploration of a subject area, both in breadth (scope) and depth (detail), beyond what is required for the task at hand (closely tied to Engagement)
 
 #### Why do it? ####
 
-* To be able to easily apply your understanding and retention to problems in following assignments or semesters
-* To build on the experience for continued Learning on the topic, especially if central to your chosen field of study or career goals
+* To easily and naturally apply your understanding and retention to problems in subsequent assignments, projects, or classes
+* To build a solid foundation for continued Learning on a topic, especially if central to your chosen field of study or career goals
 
 #### Consequences ####
 
 * Not possible without **Engagement**
 * Determines level of **Qualification and Accomplishment**
-    * This is the difference between [Doing Well][9] and [Kicking Ass!][10]
+    * Note: this is the difference between [Doing Well][9] and [Kicking Ass!][10]
 
 ## Qualification and Accomplishment ##
+
+The level of Qualification and Accomplishment for a task or assignment can be determined using the [Scorecard][14] for this framework, and
+reflects the effort put into the Responsibilities and Commitments described above, as well as the performance and effectiveness exhibited
+within each of the specific aspects/areas.
 
 ### No/Low Qualification &ndash; Failing to Complete ###
 
@@ -140,7 +154,8 @@ The Framework for Kicking Ass consists of this [Overview][11], a [User's Guide][
 
 #### *But*, you should continue to aspire ####
 
-* If this is a topic that is core to your desired long-term direction, you may want to attain an even higher level of Achievement or develop a stronger legacy of Learning in the next leg of your journey
+* If this is a topic that is core to your desired long-term direction, you may want to attain an even higher level of Achievement or
+develop a stronger legacy of Learning in the next leg of your journey
 * In particular, think about what it would take in the Engagement process to help you get to a level of Exceptional Qualification
 
 ### Exceptional Qualification &ndash; Kicking Ass! ###
