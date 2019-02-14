@@ -8,7 +8,7 @@ $(document).ready(function() {
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 <link rel="stylesheet" href="../common.css">
 
-# Sleep #
+# FKA Notes &ndash; Sleep #
 
 ## Managing sleep is necessary as a commitment to your objectives when it comes to credits and grades ##
 
@@ -33,4 +33,19 @@ It negatively affects all of the following:
 
 ## If you have a problem with sleep, you need to fix it, otherwise you will not complete your work or achieve close to the level you are capable of ##
 
-You will not be able to blame sleep problems for your inability to accomplish your objectives, especially if you don't make the concerted effort to acknowledge and remedy them
+Posssible sources of sleep problems, and how to address them:
+
+* **Health issues**
+    * See a doctor to discuss symptoms and diagnose the root cause (which could include the next item, stress)
+    * Commit to following through on any advice or treatment plan you are given
+* **Stress**
+    * Identify and remove (or resolve) the underlying source of your stress
+    * If you are unable to reduce the stress to a manageable level, you may have to adjust your workload or ambitions to fit your current
+      work abilities
+* **Non-academic distractions or time-sinks**
+    * You have to find a way to reprioritize your time and attention; you must elevate the importance of sleep and participation in school
+    * If you are unable to change your priorities and sleep habits on your own, you need to seek counseling or guidance for committing to
+      your academic success
+
+***You will not be able to blame sleep problems for your inability to accomplish your objectives, especially if you don't make a concerted
+effort to acknowledge them and remedy them***
