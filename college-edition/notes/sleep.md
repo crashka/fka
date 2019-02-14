@@ -40,12 +40,17 @@ Posssible sources of sleep problems, and how to address them:
     * Commit to following through on any advice or treatment plan you are given
 * **Stress**
     * Identify and remove (or resolve) the underlying source of your stress
-    * If you are unable to reduce the stress to a manageable level, you may have to adjust your workload or ambitions to fit your current
-      work abilities
+    * If you are unable to reduce the stress to a manageable level (so that you have a healthy sleep schedule), you may have to adjust
+      your workload or ambitions to fit your current work abilities
+* **Academic workload**
+    * If your work habits and priorities are good, but the sheer amount of work prevents you from adopting a healthy sleep schedule, then
+      you need to cut back on the number (or difficulty) of classes you are taking
+    * Or you may need to pull back on other activities and interests that take up your time, even if they are important to your long-term
+      goals or needs; you must make a reasonable trade-off between academics and extra-curriculars
 * **Non-academic distractions or time-sinks**
     * You have to find a way to reprioritize your time and attention; you must elevate the importance of sleep and participation in school
-    * If you are unable to change your priorities and sleep habits on your own, you need to seek counseling or guidance for committing to
-      your academic success
+    * If you are unable to change your priorities and sleep habits on your own, you need to seek counseling or guidance for following
+      through on commitment to your academic success
 
 ***You will not be able to blame sleep problems for your inability to accomplish your objectives, especially if you don't make a concerted
 effort to acknowledge them and remedy them***
