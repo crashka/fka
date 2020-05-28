@@ -8,29 +8,29 @@ stripped the frames down to bare metal and repainted them.  Fred painted his a l
 with Wrought Iron Flat Black, with Neon Orange accents.  I carefully masked out the design for the
 Neon Orange&mdash;it was a pair of nunchaku on the front of the head tube (okay, so I was going
 through a Bruce Lee phase at the time), and a stylized "Crash" running along both sides of the
-downtube.  Both bikes came out very cool, and we were ready to be tearing up the neighborhood all
-summer.
+downtube.  Our bikes came out looking good, once back together, and we were ready to be tearing up
+the neighborhood all summer.
 
 Around that same time, they whitewashed the walls in the pedestrian tunnel at the end of 55th
 Street, going under Lake Shore Drive and leading out to The Point, where we headed to just about
-every day&mdash;along with Alberto, Eric, Niels, and a bunch of others&mdash;either to jump into the
-lake to cool off, or find people, or just hang out on the rocks.  Hmm...freshly whitewashed
+every day&mdash;along with Alberto, Eric, Niels, and a bunch of other kids&mdash;either to jump into
+the lake to cool off, or find people, or just hang out on the rocks.  Hmm...freshly whitewashed
 walls...leftover spray paint...dumb teenagers with tons of time on their hands...gee, take a wild
 guess as to what might possibly transpire.
 
 So, of course, I found a big empty spot on the south wall of the tunnel and put up my tag (same as
-on my bike) using the rest of the Neon Orange.
+on my bike) using the rest of the Neon Orange:
 
 ![Story of Crash 1](resources/soc1.jpg)
 
 Imagine my surprise when a few days later I found that someone else using the tunnel&mdash;also
 with paint, and apparently time on their hands&mdash;had something not so flattering to say about
-my artwork (okay, I suppose it was really about me).
+my artwork (okay, maybe it was really about me):
 
 ![Story of Crash 2](resources/soc2.jpg)
 
 Well, Niels&mdash;being the awesome friend&mdash;got angry, grabbed what was left of the Wrought
-Iron Flat Black, and made his own edit on the wall.
+Iron Flat Black, and made his own edit on the wall:
 
 ![Story of Crash 3](resources/soc3.jpg)
 
@@ -40,9 +40,9 @@ Hence the name for the framework.
 
 ### Postscript ###
 
-By no means do I purport to kick ass all the time (or even whenever I intend to).  But I do know
-what it takes, and it makes me feel good if I am able to do something to help other people kick ass,
-if and when that's what they set out to do.
+By no means do I purport to kick ass all the time (or even whenever I intend to).  But, over the
+years, I have learned generally what it takes, and it makes me feel good if I am able to do
+something to help other people kick ass, if and when that's what they set out to do.
 
 Hence the framework itself.
 
