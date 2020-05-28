@@ -33,7 +33,7 @@ It negatively affects all of the following:
 
 ## If you have a problem with sleep, you need to fix it, otherwise you will not complete your work or achieve close to the level you are capable of ##
 
-Posssible sources of sleep problems, and how to address them:
+Possible sources of sleep problems, and how to address them:
 
 * **Health issues**
     * See a doctor to discuss symptoms and diagnose the root cause (which could include the next item, stress)

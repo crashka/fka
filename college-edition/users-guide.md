@@ -16,6 +16,27 @@ $(document).ready(function() {
 
 <header>Back to [FKA Index][17]</header>
 
+## High-Level Approach ##
+
+There are two fundamental ways of viewing&mdash;and thus utilizing&mdash;this framework, which are outlined here
+as the introduction to this User's Guide.  Note that this isn't necessarily an either-or scenario; the two
+methods can be used effectively in tandem.  That is, referencing the principles described in the [Overview][11],
+you can **Drive Forward from Commitments and Responsibilities** at the same time as you **Work Backward from
+Qualifications and Accomplishments**.  The desire would be to meet somewhere in the middle for a solid
+result as well as a meaningful, foundation-building experience.
+
+### Driving Forward from Commitments and Responsibilities ###
+
+You put the appropriate strong effort into Engagement, Completion, Achievement, and Learning for the task or
+assignment, with the belief that this will lead to your best possible, deserved outcome.
+
+### Working Backward from Qualifications and Accomplishments ###
+
+You choose a target outcome (level of Qualification and Accomplishment) that is realistic&mdash;or
+ambitious&mdash;given both your capabilties and aspirations, and you work backward using the framework (Overview
+and Scorecard, in particular) to determine the effort you must exert in each of the areas of Commitment and
+Responsibility in order to attain the objective.
+
 ## Process &ndash; Start to Finish ##
 
 ### Intention ###

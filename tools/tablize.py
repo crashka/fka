@@ -27,6 +27,7 @@ TABLIZE_MAP = {
         'qualification-and-accomplishment': 'tablize1'
     },
     'framework-for-kicking-ass-users-guide': {
+        'high-level-approach'             : 'tablize2',
         'process-start-to-finish'         : 'tablize3',
         'using-the-scorecard'             : 'tablize3',
         'troubleshooting'                 : 'tablize4'
@@ -238,18 +239,19 @@ def tablize2(soup, hdr):
         table = soup.new_tag('table', border="1")
         h3['tag'].insert_after(table)
         # NOTE: column widths are hard-wired to this formatting function
-        col1 = soup.new_tag('col', width="35%")
+        col1 = soup.new_tag('col', width="10%")
         table.append(col1)
         content_map = h3['content_map']
         assert len(content_map['p']) > 0
-        assert len(content_map['ol']) == len(content_map['p'])
+        method = soup.new_tag('p')
+        method.string = "Method"
         for p in content_map['p']:
             tr = soup.new_tag('tr')
             table.append(tr)
             td1 = soup.new_tag('td')
-            td1.append(p)
+            td1.append(method)
             td2 = soup.new_tag('td')
-            td2.append(content_map['ol'].pop())
+            td2.append(p)
             tr.extend([td1, td2])
 
 def tablize3(soup, hdr):
@@ -278,6 +280,30 @@ def tablize3(soup, hdr):
             td1.append(steps)
             td2 = soup.new_tag('td')
             td2.append(ol)
+            tr.extend([td1, td2])
+
+def tablize3a(soup, hdr):
+    """
+    :param soup: [bs4.BeautifulSoup] document context
+    :param hdr: [dict] header node to process
+    """
+    hdrs3 = hdr['children']
+    for h3 in hdrs3:
+        table = soup.new_tag('table', border="1")
+        h3['tag'].insert_after(table)
+        # NOTE: column widths are hard-wired to this formatting function
+        col1 = soup.new_tag('col', width="35%")
+        table.append(col1)
+        content_map = h3['content_map']
+        assert len(content_map['p']) > 0
+        assert len(content_map['ol']) == len(content_map['p'])
+        for p in content_map['p']:
+            tr = soup.new_tag('tr')
+            table.append(tr)
+            td1 = soup.new_tag('td')
+            td1.append(p)
+            td2 = soup.new_tag('td')
+            td2.append(content_map['ol'].pop())
             tr.extend([td1, td2])
 
 def tablize4(soup, hdr):
